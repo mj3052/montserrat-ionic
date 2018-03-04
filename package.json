@@ -1,0 +1,17 @@
+{
+    "name": "montserrat-ionic",
+    "description": "Font Montserrat para ionic",
+    "readmeFilename": "README.md" ,
+    "version": "0.0.1",
+    "author": {
+      "name": "Eduardo Vieira",
+      "email": "gceduvieira@gmail.com",
+      "homepage": "https://github.com/Eduardo-Vieira"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Eduardo-Vieira/montserrat-ionic.git"
+    },
+    "license": "MIT",
+    "main": "index.js"
+  }
