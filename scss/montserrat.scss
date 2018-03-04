@@ -1,20 +1,28 @@
+
+// Montserrat Font
+// Google
+// Apache License, version 2.0
+// http://www.apache.org/licenses/LICENSE-2.0.html
+
+$montserrat-font-path: $font-path !default;
+
 @font-face {
     font-family: 'Montserrat-Regular';
-    src: url('#{font-path}/montserrat-regular.ttf') format('truetype');
+    src: url("#{$montserrat-font-path}/montserrat-regular.ttf") format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Montserrat-Light';
-    src: url('#{font-path}/montserrat-light.ttf') format('truetype');
-    font-weight: 400;
+    src: url("#{$montserrat-font-path}/montserrat-light.ttf") format('truetype');
+    font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Montserrat-LightItalic';
-    src: url('#{font-path}/montserrat-lightitalic.ttf') format('truetype');
-    font-weight: 400;
+    src: url("#{$montserrat-font-path}/montserrat-lightitalic.ttf") format('truetype');
+    font-weight: 300;
     font-style: normal;
 }
