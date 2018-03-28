@@ -1,11 +1,8 @@
-
 // Montserrat Font
 // Google
 // Apache License, version 2.0
 // http://www.apache.org/licenses/LICENSE-2.0.html
-
 $montserrat-font-path: $font-path !default;
-
 @font-face {
     font-family: 'Montserrat-Regular';
     src: url("#{$montserrat-font-path}/montserrat-regular.ttf") format('truetype');
@@ -24,5 +21,36 @@ $montserrat-font-path: $font-path !default;
     font-family: 'Montserrat-LightItalic';
     src: url("#{$montserrat-font-path}/montserrat-lightitalic.ttf") format('truetype');
     font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url("#{$montserrat-font-path}/montserrat-medium.ttf") format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Thin';
+    src: url("#{$montserrat-font-path}/montserrat-thin.ttf") format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url("#{$montserrat-font-path}/montserrat-bold.ttf") format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Italic';
+    src: url("#{$montserrat-font-path}/montserrat-italic.ttf") format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Black';
+    src: url("#{$montserrat-font-path}/montserrat-black.ttf") format('truetype');
     font-style: normal;
 }
